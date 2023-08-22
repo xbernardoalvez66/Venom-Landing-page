@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(v2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(transparent,rgba(0,0,0,0.623),black);
+
+}
+
+.container .one{
+    width: 282px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 66.5%;
+    backdrop-filter: blur(6px);
+}
+
+.container .two{
+    width: 160px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 88%;
+    backdrop-filter: blur(9px);
+
+}
+
+nav{
+    width: 500px;
+    height: 85px;
+    position: absolute;
+    top: 0;
+    left: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+    width: 12%;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: poppins;
+    color: rgba(255, 255, 255, 0.445);
+}
+
+nav a:nth-child(3){
+    color: white;
+}
+
+.one h5{
+    color: rgba(255, 255, 255, 0.452);
+    font-family: poppins;
+    word-spacing: 1px;
+    font-size: 17px;
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    transform: translateY(-50%);
+}
+
+.one span{
+    color: white;
+}
+
+.text{
+    position: absolute;
+    top: 260px;
+    left: 90px;
+    z-index: 5;
+}
+
+.container .text h5,h1{
+    color: white;
+}
+
+.text h5{
+    font-size: 11px;
+    letter-spacing: 10px;
+}
+
+.text h1{
+    font-size: 80px;
+}
+
+.ri-menu-4-line{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    transform: translateY(-50%);
+}
+
+.two .social_links{
+    position: absolute;
+    top: 40%;
+    right: -60%;
+    width: 370px;
+    height: 100px;
+    transform: rotate(-90deg);
+}
+
+.two .social_links a{
+    color: rgba(225, 225, 225, 0.349);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.ri-share-fill{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    bottom: 50px;
+    left: 70px;
+    font-weight: 200;
+}
+
+.date{
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    width: 230px;
+    font-size: 65px;
+    font-family: 'Rubik';
+    color: white;
+}
+
+.date h3{
+    font-size: 36px;
+    font-weight: 290;
+    color: rgba(225, 225, 225, 0.431);
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+
+.date::after{
+    content: '';
+    width: 78px;
+    height: 2px;
+    background-color:rgba(225, 225, 225, 0.431); 
+    position: absolute;
+    top: 94px;
+    left: 120px;
+}
+
+.scroll_num{
+    display: flex;
+    color: white;
+    position: absolute;
+    flex-direction: column;
+    top: 65%;
+    left: 30px;
+}
+
+.scroll_num span{
+    margin-top: 11px;
+}
+
+.scroll_num span:nth-child(1){
+    font-size: 17px;
+    color: rgba(225, 225, 225, 0.322);
+}
+
+.scroll_num span:nth-child(5){
+    font-size: 17px;
+    color: rgba(225, 225, 225, 0.322);
+}
+
+.scroll_num span:nth-child(2){
+    font-size: 17px;
+    color: rgba(225, 225, 225, 0.486);
+}
+.scroll_num span:nth-child(4){
+    font-size: 17px;
+    color: rgba(225, 225, 225, 0.322);
+}
+.scroll_num span:nth-child(3){
+    font-size: 17px;
+   
+}
+
+.ext{
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 79.6%;
+    left: 76px;
+    background-color: rgba(144, 144, 144, 0.644);
+}
+
+#play{
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 78%;
+    left: 390px;
+}
+
+.ri-play-fill {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.box{
+    width: 280px;
+    height: 160px;
+    background: url("venom.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 68%;
+    left: 155px;
+    border-radius: 5px;
+}
+
+.para_dis{
+    position: absolute;
+    top: 76%;
+    left: 523px;
+    color: white;
+}
+
+.para_dis p{
+    font-family: lato;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: .5px;
+}
